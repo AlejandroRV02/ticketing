@@ -6,6 +6,7 @@
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "test": "jest --watchAll --no-cache --detectOpenHandles",
+    "test:ci": "jest",
     "upd-common": "npm update @arvtickets/common"
   },
   "jest": {
